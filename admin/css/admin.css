@@ -1,0 +1,882 @@
+/**
+ * WooCommerce Odoo Connector - Premium Admin Styles
+ */
+
+/* Ensure WordPress admin background is not overridden */
+body.wp-admin {
+    background: #f0f0f1 !important;
+}
+
+#wpwrap {
+    background: #f0f0f1 !important;
+}
+
+#wpcontent {
+    background: #f0f0f1 !important;
+}
+
+:root {
+    --woo-odoo-primary: #2271b1;
+    --woo-odoo-primary-hover: #135e96;
+    --woo-odoo-primary-light: rgba(34, 113, 177, 0.08);
+    --woo-odoo-accent: #2271b1;
+    --woo-odoo-success: #00a32a;
+    --woo-odoo-warning: #dba617;
+    --woo-odoo-error: #d63638;
+    --woo-odoo-bg: #f0f0f1;
+    --woo-odoo-card: #ffffff;
+    --woo-odoo-border: #c3c4c7;
+    --woo-odoo-text: #1d2327;
+    --woo-odoo-text-muted: #646970;
+    --woo-odoo-radius: 4px;
+    --woo-odoo-radius-sm: 3px;
+    --woo-odoo-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    --woo-odoo-shadow-lg: 0 1px 3px rgba(0, 0, 0, 0.13);
+    --woo-odoo-transition: 0.15s ease;
+}
+
+.woo-odoo-wrap {
+    max-width: 1400px;
+    margin: 0;
+    background: #f0f0f1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+
+.woo-odoo-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--woo-odoo-border);
+}
+
+.woo-odoo-header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--woo-odoo-text);
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.woo-odoo-header-badge {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--woo-odoo-text-muted);
+    background: var(--woo-odoo-bg);
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+
+.woo-odoo-status-success {
+    background: rgba(5, 150, 105, 0.15) !important;
+    color: var(--woo-odoo-success) !important;
+}
+
+.woo-odoo-status-error {
+    background: rgba(220, 38, 38, 0.1) !important;
+    color: var(--woo-odoo-error) !important;
+}
+
+.woo-odoo-status-pending {
+    background: var(--woo-odoo-primary-light) !important;
+    color: var(--woo-odoo-primary) !important;
+}
+
+/* Dashboard Stats */
+.woo-odoo-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.woo-odoo-stat-card {
+    background: var(--woo-odoo-card);
+    border: 1px solid var(--woo-odoo-border);
+    border-radius: var(--woo-odoo-radius);
+    padding: 24px;
+    box-shadow: var(--woo-odoo-shadow);
+    transition: box-shadow var(--woo-odoo-transition), transform var(--woo-odoo-transition);
+}
+
+.woo-odoo-stat-card:hover {
+    box-shadow: var(--woo-odoo-shadow-lg);
+}
+
+.woo-odoo-stat-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.woo-odoo-stat-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--woo-odoo-primary);
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.woo-odoo-stat-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--woo-odoo-text-muted);
+}
+
+.woo-odoo-stat-card.woo-odoo-stat-link .woo-odoo-stat-value {
+    font-size: 14px;
+    color: var(--woo-odoo-accent);
+}
+
+.woo-odoo-stat-card.woo-odoo-stat-link:hover .woo-odoo-stat-value {
+    text-decoration: underline;
+}
+
+/* Cards */
+.woo-odoo-card {
+    background: var(--woo-odoo-card);
+    border: 1px solid var(--woo-odoo-border);
+    border-radius: var(--woo-odoo-radius);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: var(--woo-odoo-shadow);
+}
+
+.woo-odoo-card-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--woo-odoo-text);
+    margin: 0 0 8px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--woo-odoo-border);
+}
+
+.woo-odoo-card-desc {
+    font-size: 13px;
+    color: var(--woo-odoo-text-muted);
+    margin: 0 0 16px 0;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.woo-odoo-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: var(--woo-odoo-radius-sm);
+    border: none;
+    cursor: pointer;
+    transition: all var(--woo-odoo-transition);
+}
+
+.woo-odoo-btn-primary {
+    background: #2271b1;
+    color: #fff;
+    border: 1px solid #2271b1;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.woo-odoo-btn-primary:hover {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+}
+
+.woo-odoo-btn-primary:active {
+    background: #135e96;
+    border-color: #135e96;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.woo-odoo-btn-secondary {
+    background: #f6f7f7;
+    color: #2c3338;
+    border: 1px solid #c3c4c7;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.woo-odoo-btn-secondary:hover {
+    background: #f0f0f1;
+    border-color: #8c8f94;
+    color: #2c3338;
+}
+
+.woo-odoo-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.woo-odoo-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.woo-odoo-btn-group .woo-odoo-btn {
+    margin: 0;
+}
+
+/* Form inputs */
+.woo-odoo-card input[type="text"],
+.woo-odoo-card input[type="url"],
+.woo-odoo-card input[type="password"],
+.woo-odoo-card select {
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid var(--woo-odoo-border);
+    border-radius: var(--woo-odoo-radius-sm);
+    max-width: 100%;
+    transition: border-color var(--woo-odoo-transition), box-shadow var(--woo-odoo-transition);
+}
+
+.woo-odoo-card input:focus,
+.woo-odoo-card select:focus {
+    outline: none;
+    border-color: var(--woo-odoo-primary);
+    box-shadow: 0 0 0 3px var(--woo-odoo-primary-light);
+}
+
+.woo-odoo-form-row {
+    margin-bottom: 20px;
+}
+
+.woo-odoo-form-row label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--woo-odoo-text);
+    margin-bottom: 6px;
+}
+
+.woo-odoo-form-row .description {
+    font-size: 12px;
+    color: var(--woo-odoo-text-muted);
+    margin-top: 6px;
+}
+
+.woo-odoo-card label input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Progress bar */
+.woo-odoo-progress-wrap {
+    margin-top: 16px;
+    display: none;
+}
+
+.woo-odoo-progress-wrap.is-visible {
+    display: block;
+}
+
+.woo-odoo-progress-bar {
+    height: 8px;
+    background: var(--woo-odoo-bg);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.woo-odoo-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--woo-odoo-primary), var(--woo-odoo-accent));
+    border-radius: 4px;
+    width: 0%;
+    transition: width 0.4s ease;
+}
+
+.woo-odoo-progress-text {
+    font-size: 12px;
+    color: var(--woo-odoo-text-muted);
+}
+
+/* Log panel */
+.woo-odoo-log-panel {
+    background: #1e293b;
+    border-radius: var(--woo-odoo-radius-sm);
+    padding: 20px;
+    max-height: 420px;
+    overflow-y: auto;
+    font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", monospace;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.woo-odoo-log-panel::-webkit-scrollbar {
+    width: 8px;
+}
+
+.woo-odoo-log-panel::-webkit-scrollbar-track {
+    background: #334155;
+    border-radius: 4px;
+}
+
+.woo-odoo-log-panel::-webkit-scrollbar-thumb {
+    background: #64748b;
+    border-radius: 4px;
+}
+
+.woo-odoo-log-entry {
+    margin-bottom: 6px;
+    color: #94a3b8;
+}
+
+.woo-odoo-log-entry.error {
+    color: #f87171;
+}
+
+.woo-odoo-log-entry.warning {
+    color: #fbbf24;
+}
+
+.woo-odoo-log-empty {
+    color: #64748b;
+    font-style: italic;
+}
+
+/* Add instance form */
+.woo-odoo-add-instance {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr auto;
+    gap: 12px;
+    align-items: end;
+    padding: 20px;
+    background: var(--woo-odoo-bg);
+    border-radius: var(--woo-odoo-radius-sm);
+    border: 1px solid var(--woo-odoo-border);
+    margin-bottom: 16px;
+}
+
+.woo-odoo-add-instance input {
+    padding: 10px 12px;
+    font-size: 13px;
+    border: 1px solid var(--woo-odoo-border);
+    border-radius: var(--woo-odoo-radius-sm);
+}
+
+@media (max-width: 1200px) {
+    .woo-odoo-add-instance {
+        grid-template-columns: 1fr 1fr auto;
+    }
+}
+
+/* Retry table */
+.woo-odoo-retry-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.woo-odoo-retry-table th,
+.woo-odoo-retry-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--woo-odoo-border);
+}
+
+.woo-odoo-retry-table th {
+    font-weight: 600;
+    color: var(--woo-odoo-text-muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.woo-odoo-retry-table tr:hover td {
+    background: var(--woo-odoo-bg);
+}
+
+.woo-odoo-retry-empty {
+    padding: 24px;
+    text-align: center;
+    color: var(--woo-odoo-text-muted);
+    font-size: 13px;
+}
+
+#woo-odoo-retry-list {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+#woo-odoo-retry-list.woo-odoo-retry-empty {
+    background: var(--woo-odoo-bg);
+    border-radius: var(--woo-odoo-radius-sm);
+    border: 1px solid var(--woo-odoo-border);
+}
+
+/* Result messages */
+.woo-odoo-result {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: var(--woo-odoo-radius-sm);
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.woo-odoo-result.success {
+    background: rgba(5, 150, 105, 0.1);
+    color: var(--woo-odoo-success);
+}
+
+.woo-odoo-result.error {
+    background: rgba(220, 38, 38, 0.1);
+    color: var(--woo-odoo-error);
+}
+
+.woo-odoo-result.pending {
+    background: var(--woo-odoo-primary-light);
+    color: var(--woo-odoo-primary);
+}
+
+/* Grid layout */
+.woo-odoo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+@media (max-width: 1100px) {
+    .woo-odoo-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Schedule list */
+.woo-odoo-schedule-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.woo-odoo-schedule-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--woo-odoo-border);
+    font-size: 14px;
+}
+
+.woo-odoo-schedule-list li:last-child {
+    border-bottom: none;
+}
+
+.woo-odoo-schedule-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--woo-odoo-primary);
+}
+
+/* Instance list */
+.woo-odoo-instance-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: var(--woo-odoo-bg);
+    border-radius: var(--woo-odoo-radius-sm);
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.woo-odoo-instance-item .woo-odoo-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+}
+
+/* Settings form overrides */
+.woo-odoo-card .form-table {
+    margin: 0 0 20px 0;
+}
+
+.woo-odoo-card .form-table th {
+    padding: 12px 16px 12px 0;
+    font-weight: 500;
+    color: var(--woo-odoo-text);
+}
+
+.woo-odoo-card .form-table td {
+    padding: 12px 0;
+}
+
+.woo-odoo-card .form-table input[type="text"],
+.woo-odoo-card .form-table input[type="url"],
+.woo-odoo-card .form-table input[type="password"],
+.woo-odoo-card .form-table select {
+    min-width: 320px;
+}
+
+.woo-odoo-card .submit .button {
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: var(--woo-odoo-radius-sm);
+    background: var(--woo-odoo-primary);
+    border-color: var(--woo-odoo-primary);
+}
+
+.woo-odoo-card .submit .button:hover {
+    background: var(--woo-odoo-primary-hover);
+    border-color: var(--woo-odoo-primary-hover);
+}
+
+/* ========================================
+   PHASE 4: UX & ACCESSIBILITY IMPROVEMENTS
+   ======================================== */
+
+/* Help Tooltips */
+.woo-odoo-help-tip {
+    position: relative;
+    display: inline-block;
+    margin-left: 6px;
+    cursor: help;
+    color: var(--woo-odoo-text-muted);
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.woo-odoo-help-tip .dashicons {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    line-height: 1;
+}
+
+.woo-odoo-help-tip:hover,
+.woo-odoo-help-tip:focus {
+    color: var(--woo-odoo-primary);
+    outline: 2px solid var(--woo-odoo-primary);
+    outline-offset: 2px;
+    border-radius: 3px;
+}
+
+.woo-odoo-help-tip::after {
+    content: attr(aria-label);
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 8px);
+    transform: translateX(-50%);
+    padding: 10px 14px;
+    background: #1e293b;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.5;
+    white-space: normal;
+    max-width: 320px;
+    min-width: 200px;
+    border-radius: var(--woo-odoo-radius-sm);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 10000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.woo-odoo-help-tip::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 2px);
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: #1e293b;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 10001;
+}
+
+.woo-odoo-help-tip:hover::after,
+.woo-odoo-help-tip:hover::before,
+.woo-odoo-help-tip:focus::after,
+.woo-odoo-help-tip:focus::before {
+    opacity: 1;
+}
+
+/* Accessibility: Enhanced Focus Indicators */
+.woo-odoo-wrap input:focus,
+.woo-odoo-wrap select:focus,
+.woo-odoo-wrap textarea:focus,
+.woo-odoo-wrap button:focus,
+.woo-odoo-wrap a:focus {
+    outline: 2px solid var(--woo-odoo-primary);
+    outline-offset: 2px;
+}
+
+.woo-odoo-btn:focus {
+    box-shadow: 0 0 0 3px var(--woo-odoo-primary-light);
+}
+
+/* Skip Link for Keyboard Navigation */
+.woo-odoo-skip-link {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    background: var(--woo-odoo-primary);
+    color: #fff;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: var(--woo-odoo-radius-sm);
+    z-index: 100000;
+    font-weight: 500;
+    transition: top 0.2s ease;
+}
+
+.woo-odoo-skip-link:focus {
+    top: 10px;
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+/* Screen Reader Only Content */
+.woo-odoo-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* ARIA Live Regions */
+.woo-odoo-live-region {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Status Indicators with ARIA */
+.woo-odoo-status-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.woo-odoo-status-indicator::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.woo-odoo-status-indicator.success {
+    background: rgba(5, 150, 105, 0.15);
+    color: var(--woo-odoo-success);
+}
+
+.woo-odoo-status-indicator.success::before {
+    background: var(--woo-odoo-success);
+}
+
+.woo-odoo-status-indicator.warning {
+    background: rgba(217, 119, 6, 0.15);
+    color: var(--woo-odoo-warning);
+}
+
+.woo-odoo-status-indicator.warning::before {
+    background: var(--woo-odoo-warning);
+}
+
+.woo-odoo-status-indicator.error {
+    background: rgba(220, 38, 38, 0.15);
+    color: var(--woo-odoo-error);
+}
+
+.woo-odoo-status-indicator.error::before {
+    background: var(--woo-odoo-error);
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    .woo-odoo-help-tip::after {
+        border: 2px solid #fff;
+    }
+    
+    .woo-odoo-wrap input:focus,
+    .woo-odoo-wrap select:focus,
+    .woo-odoo-wrap textarea:focus,
+    .woo-odoo-wrap button:focus {
+        outline-width: 3px;
+    }
+    
+    .woo-odoo-card {
+        border-width: 2px;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    .woo-odoo-help-tip::after,
+    .woo-odoo-help-tip::before,
+    .woo-odoo-btn,
+    .woo-odoo-progress-fill,
+    .woo-odoo-skip-link {
+        transition: none;
+    }
+    
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Mobile Responsive Tooltips */
+@media (max-width: 782px) {
+    .woo-odoo-help-tip::after {
+        left: auto;
+        right: 0;
+        transform: none;
+        max-width: 250px;
+        min-width: 180px;
+    }
+    
+    .woo-odoo-help-tip::before {
+        left: auto;
+        right: 12px;
+        transform: none;
+    }
+    
+    .woo-odoo-card .form-table input[type="text"],
+    .woo-odoo-card .form-table input[type="url"],
+    .woo-odoo-card .form-table input[type="password"],
+    .woo-odoo-card .form-table select {
+        min-width: 100%;
+    }
+}
+
+/* Dark Mode Support (if WordPress adds it) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --woo-odoo-bg: #1e293b;
+        --woo-odoo-card: #334155;
+        --woo-odoo-border: #475569;
+        --woo-odoo-text: #f1f5f9;
+        --woo-odoo-text-muted: #94a3b8;
+    }
+}
+
+/* Loading State */
+.woo-odoo-loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.woo-odoo-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid var(--woo-odoo-primary);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: woo-odoo-spin 0.6s linear infinite;
+}
+
+@keyframes woo-odoo-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Keyboard Navigation Hints */
+.woo-odoo-kbd {
+    display: inline-block;
+    padding: 3px 6px;
+    font-size: 11px;
+    font-family: monospace;
+    background: var(--woo-odoo-bg);
+    border: 1px solid var(--woo-odoo-border);
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+/* Form Field Groups with Better Accessibility */
+.woo-odoo-field-group {
+    margin-bottom: 20px;
+}
+
+.woo-odoo-field-group legend {
+    font-weight: 600;
+    color: var(--woo-odoo-text);
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.woo-odoo-field-group .woo-odoo-field-row {
+    margin-bottom: 12px;
+}
+
+/* Error Messages with Icons */
+.woo-odoo-error-message {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 16px;
+    background: rgba(220, 38, 38, 0.1);
+    border-left: 4px solid var(--woo-odoo-error);
+    border-radius: var(--woo-odoo-radius-sm);
+    color: var(--woo-odoo-error);
+    font-size: 13px;
+    margin: 12px 0;
+}
+
+.woo-odoo-error-message .dashicons {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+/* Success Messages with Icons */
+.woo-odoo-success-message {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 16px;
+    background: rgba(5, 150, 105, 0.1);
+    border-left: 4px solid var(--woo-odoo-success);
+    border-radius: var(--woo-odoo-radius-sm);
+    color: var(--woo-odoo-success);
+    font-size: 13px;
+    margin: 12px 0;
+}
+
+.woo-odoo-success-message .dashicons {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+/* Print Styles */
+@media print {
+    .woo-odoo-btn,
+    .woo-odoo-help-tip,
+    .woo-odoo-skip-link {
+        display: none;
+    }
+    
+    .woo-odoo-card {
+        box-shadow: none;
+        border: 1px solid #000;
+    }
+}

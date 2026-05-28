@@ -1,0 +1,2969 @@
+# OdooSync for WooCommerce — Translation Template
+# Copyright (C) 2026 ERP Linker
+# This file is distributed under the same license as the OdooSync for WooCommerce package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OdooSync for WooCommerce 2.6.0\n"
+"Report-Msgid-Bugs-To: https://erplinker.com/support\n"
+"POT-Creation-Date: 2026-03-14 14:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: odoosync-for-woocommerce build script\n"
+"X-Domain: odoosync-for-woocommerce\n"
+
+#: woo-odoo-connector.php:356
+msgid " or run: "
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1459
+msgid "%d batches enqueued"
+msgstr ""
+
+#: includes/class-woo-odoo-b2b.php:421
+msgid "%d items added to cart"
+msgstr ""
+
+#: includes/class-woo-odoo-sync-columns.php:146
+msgid "%s ago"
+msgstr ""
+
+#: admin/views/welcome.php:135
+msgid "(PHP 8.0+ required)"
+msgstr ""
+
+#: admin/views/help.php:37
+msgid "1. Configure Odoo Connection"
+msgstr ""
+
+#: admin/views/help.php:49
+msgid "2. Test Connection"
+msgstr ""
+
+#: admin/views/help.php:54
+msgid "3. Configure Sync Options"
+msgstr ""
+
+#: admin/views/help.php:66
+msgid "4. Run Your First Sync"
+msgstr ""
+
+#: woo-odoo-connector.php:385
+msgid "A more secure encryption method (PBKDF2) is now available. Your existing passwords and API keys will be re-encrypted with stronger protection."
+msgstr ""
+
+#: includes/class-woo-odoo-ai-optimizer.php:749
+#: admin/class-woo-odoo-admin.php:219
+msgid "AI Optimizer"
+msgstr ""
+
+#: admin/views/help.php:174
+msgid "AI-Powered Sync Optimizer"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:225
+msgid "API Authentication & Protocol"
+msgstr ""
+
+#: admin/views/analytics.php:57
+msgid "API Efficiency"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1079
+#: admin/class-woo-odoo-admin.php:1080
+#: admin/class-woo-odoo-admin.php:1082
+msgid "API Key"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:761
+msgid "API Key (Odoo 16+ long-lived token)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:232
+msgid "API Protocol"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1079
+msgid "API Secret"
+msgstr ""
+
+#: admin/views/dashboard.php:159
+msgid "API Statistics (Last 24 Hours)"
+msgstr ""
+
+#: admin/views/help.php:167
+msgid "API call statistics"
+msgstr ""
+
+#: admin/views/help.php:88
+msgid "API latency (P50, P95, P99)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:198
+msgid "Accounting (Odoo)"
+msgstr ""
+
+#: admin/views/help.php:99
+msgid "Accounting:"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:348
+#: admin/views/integrations.php:33
+#: admin/views/field-mapper.php:28
+msgid "Actions"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:720
+msgid "Activates wholesale/B2B functionality. Not needed for standard B2C stores."
+msgstr ""
+
+#: admin/views/help.php:153
+msgid "Activates wholesale/B2B functionality:"
+msgstr ""
+
+#: admin/views/welcome.php:148
+msgid "Active"
+msgstr ""
+
+#: admin/views/settings.php:125
+msgid "Add Instance"
+msgstr ""
+
+#: admin/views/field-mapper.php:59
+msgid "Add New Mapping"
+msgstr ""
+
+#: admin/views/settings.php:118
+msgid "Add more Odoo connections to switch between them."
+msgstr ""
+
+#: admin/views/settings.php:117
+msgid "Additional Odoo Instances"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:218
+msgid "Advanced Analytics"
+msgstr ""
+
+#: admin/views/help.php:163
+msgid "Advanced Analytics & Reporting"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:210
+#: admin/views/help.php:20
+#: admin/views/help.php:121
+msgid "Advanced Features"
+msgstr ""
+
+#: admin/views/help.php:100
+msgid "Advanced Features:"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:204
+msgid "Advanced analytics"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:241
+msgid "Alert Email"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:243
+msgid "Alert after (hours)"
+msgstr ""
+
+#: includes/class-woo-odoo-alert-manager.php:172
+msgid "Alert digest triggered (check email / Slack)."
+msgstr ""
+
+#: includes/class-woo-odoo-analytics.php:676
+msgid "Analytics"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:193
+#: admin/views/settings.php:172
+#: admin/views/logs.php:37
+msgid "Audit Trail"
+msgstr ""
+
+#: admin/views/help.php:301
+msgid "Audit trail for all sync operations"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:229
+msgid "Authentication Method"
+msgstr ""
+
+#: admin/views/dashboard.php:219
+msgid "Auto-refreshing every 30s"
+msgstr ""
+
+#: admin/views/help.php:85
+msgid "Automatic protection against repeated failures"
+msgstr ""
+
+#: admin/views/help.php:57
+msgid "Automatically sync when products/orders are created or updated"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:736
+#: admin/views/help.php:175
+msgid "Automatically tunes batch sizes and scheduling based on historical sync performance."
+msgstr ""
+
+#: admin/views/stock-breakdown-metabox.php:19
+msgid "Available"
+msgstr ""
+
+#: admin/views/dashboard.php:235
+msgid "Avg API Latency"
+msgstr ""
+
+#: admin/views/analytics.php:47
+msgid "Avg Sync Time"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:217
+#: admin/views/help.php:152
+msgid "B2B Features"
+msgstr ""
+
+#: admin/views/analytics.php:173
+msgid "B2B vs B2C"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:258
+#: admin/class-woo-odoo-setup-wizard.php:327
+msgid "Back"
+msgstr ""
+
+#: admin/views/settings.php:132
+msgid "Background sync runs automatically. Configure frequencies in Sync Options."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:635
+msgid "Barcode"
+msgstr ""
+
+#: admin/views/help.php:102
+msgid "Batch processing for large catalogs"
+msgstr ""
+
+#: admin/views/help.php:178
+msgid "Batch sizes for optimal throughput"
+msgstr ""
+
+#: admin/views/settings.php:173
+#: admin/views/logs.php:38
+msgid "Before/after values for product sync."
+msgstr ""
+
+#: admin/views/help.php:188
+msgid "Best for:"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:83
+msgid "Billing address"
+msgstr ""
+
+#: admin/views/help.php:262
+msgid "Both work, but API keys are recommended for security. API keys can be revoked without changing your password and have specific permissions."
+msgstr ""
+
+#: admin/views/analytics.php:52
+msgid "Cache Efficiency"
+msgstr ""
+
+#: admin/views/dashboard.php:62
+msgid "Cache Performance"
+msgstr ""
+
+#: admin/views/help.php:86
+msgid "Cache Performance:"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1675
+msgid "Cache cleared"
+msgstr ""
+
+#: admin/views/help.php:272
+msgid "Can I sync in both directions?"
+msgstr ""
+
+#: admin/views/help.php:306
+msgid "Can I use this with multiple Odoo instances?"
+msgstr ""
+
+#: admin/views/integrations.php:101
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/settings.php:94
+msgid "Cancel Queue"
+msgstr ""
+
+#: admin/views/analytics.php:200
+msgid "Capacity Planning"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:688
+msgid "Changes take effect after saving. A page reload is required for the new modules to register their hooks."
+msgstr ""
+
+#: admin/views/help.php:239
+msgid "Check Dashboard > Performance Metrics for API latency"
+msgstr ""
+
+#: admin/views/help.php:206
+msgid "Check database name matches exactly"
+msgstr ""
+
+#: admin/views/help.php:209
+msgid "Check if your Odoo instance is accessible from your WordPress server"
+msgstr ""
+
+#: admin/views/help.php:217
+msgid "Check that products have SKUs (required for matching)"
+msgstr ""
+
+#: admin/views/help.php:70
+msgid "Check the Sync Log to see results"
+msgstr ""
+
+#: admin/views/help.php:249
+msgid "Check the plugin documentation on GitHub"
+msgstr ""
+
+#: admin/views/settings.php:22
+msgid "Checking connection..."
+msgstr ""
+
+#: admin/views/settings.php:22
+msgid "Checking..."
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:271
+msgid "Choose what to synchronize between WooCommerce and Odoo."
+msgstr ""
+
+#: admin/views/dashboard.php:41
+#: admin/views/dashboard.php:223
+msgid "Circuit Breaker"
+msgstr ""
+
+#: admin/views/help.php:224
+msgid "Circuit Breaker Open"
+msgstr ""
+
+#: admin/views/help.php:85
+msgid "Circuit Breaker:"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1656
+msgid "Circuit breaker reset"
+msgstr ""
+
+#: admin/views/dashboard.php:78
+msgid "Clear Cache"
+msgstr ""
+
+#: admin/views/settings.php:111
+msgid "Clear Retry Queue"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1062
+msgid "Clear all cache?"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1084
+msgid "Client ID"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1084
+msgid "Client Secret"
+msgstr ""
+
+#: admin/views/welcome.php:193
+msgid "Close"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:202
+msgid "Company"
+msgstr ""
+
+#: admin/views/help.php:99
+msgid "Company, journals, fiscal positions, taxes"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:831
+msgid "Compares WC modified date / Odoo write_date against the last sync timestamp. Reduces API calls by 80–90% on active stores."
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:72
+msgid "Complete"
+msgstr ""
+
+#: admin/views/welcome.php:85
+msgid "Complete guides and API reference"
+msgstr ""
+
+#: admin/views/analytics.php:17
+msgid "Comprehensive analytics and insights for your WooCommerce-Odoo integration."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1091
+msgid "Configuration not available for this integration"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1093
+msgid "Configuration saved successfully"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1092
+#: admin/views/integrations.php:71
+msgid "Configure"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:345
+msgid "Configure Advanced Settings"
+msgstr ""
+
+#: admin/views/integrations.php:95
+msgid "Configure Integration"
+msgstr ""
+
+#: admin/views/settings.php:47
+msgid "Configure Odoo connection and sync behavior."
+msgstr ""
+
+#: admin/views/warehouse-settings.php:26
+msgid "Configure Odoo warehouses and map them to WooCommerce shipping zones for stock routing."
+msgstr ""
+
+#: admin/views/help.php:95
+msgid "Configure all aspects of the plugin:"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:752
+msgid "Configure how the plugin authenticates with Odoo and which transport protocol to use."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:515
+msgid "Configure sync behavior."
+msgstr ""
+
+#: admin/views/help.php:278
+msgid "Configure sync direction in Settings > Sync Options."
+msgstr ""
+
+#: admin/views/webhooks.php:40
+msgid "Configure this secret in your Odoo webhook settings for security."
+msgstr ""
+
+#: admin/views/webhooks.php:19
+msgid "Configure webhooks to receive real-time updates from Odoo."
+msgstr ""
+
+#: admin/views/welcome.php:164
+msgid "Configured"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:249
+msgid "Conflict not found"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:283
+msgid "Conflict resolved."
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:313
+msgid "Conflicts"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:312
+msgid "Conflicts %s"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:221
+msgid "Connect to Odoo"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:62
+#: admin/views/settings.php:57
+msgid "Connection"
+msgstr ""
+
+#: admin/views/help.php:202
+msgid "Connection Failed"
+msgstr ""
+
+#: includes/class-woo-odoo-connection-manager.php:56
+msgid "Connection circuit breaker is open. Service temporarily unavailable."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1346
+msgid "Connection failed. Check URL, database, username and password."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1343
+msgid "Connection successful!"
+msgstr ""
+
+#: admin/views/help.php:240
+msgid "Consider enabling Delta Sync to only sync changed records"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1085
+msgid "Consumer Key"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1085
+msgid "Consumer Secret"
+msgstr ""
+
+#: admin/views/dashboard.php:199
+msgid "Context"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:257
+#: admin/class-woo-odoo-setup-wizard.php:326
+msgid "Continue"
+msgstr ""
+
+#: includes/class-woo-odoo-order-sync.php:49
+msgid "Could not create customer in Odoo."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:184
+msgid "Create Invoice on Order"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:644
+msgid "Create invoice in Odoo when order is confirmed"
+msgstr ""
+
+#: includes/class-woo-odoo-customer-sync.php:60
+msgid "Created customer %d in Odoo (ID: %d)"
+msgstr ""
+
+#: includes/class-woo-odoo-order-sync.php:304
+msgid "Created invoice %d for order %d"
+msgstr ""
+
+#: includes/class-woo-odoo-order-sync.php:126
+msgid "Created order %d in Odoo (ID: %d)"
+msgstr ""
+
+#: includes/class-woo-odoo-product-sync.php:76
+msgid "Created product %d in Odoo (ID: %d)"
+msgstr ""
+
+#: admin/views/help.php:156
+msgid "Credit limits and payment terms"
+msgstr ""
+
+#: admin/views/welcome.php:169
+msgid "Cron Jobs"
+msgstr ""
+
+#: admin/views/field-mapper.php:18
+msgid "Custom Field Mappings"
+msgstr ""
+
+#: admin/views/analytics.php:167
+msgid "Customer Statistics"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:265
+msgid "Customer information (name, email, address, phone)"
+msgstr ""
+
+#: admin/views/help.php:155
+msgid "Customer-specific pricing from Odoo pricelists"
+msgstr ""
+
+#: admin/views/analytics.php:68
+msgid "Customers"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:189
+msgid "Customers Cron"
+msgstr ""
+
+#: admin/views/settings.php:143
+msgid "Customers: %s"
+msgstr ""
+
+#: admin/views/help.php:286
+msgid "Customers: Hourly (default)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:85
+#: admin/views/help.php:81
+msgid "Dashboard"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:163
+#: admin/views/settings.php:122
+msgid "Database"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:236
+msgid "Database Name"
+msgstr ""
+
+#: admin/views/help.php:41
+msgid "Database:"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:114
+msgid "Date"
+msgstr ""
+
+#: admin/views/settings.php:84
+msgid "Date range (for Orders/Customers)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:205
+msgid "Debtors Account"
+msgstr ""
+
+#: includes/class-woo-odoo-instances.php:24
+msgid "Default"
+msgstr ""
+
+#: admin/views/field-mapper.php:65
+msgid "Default Field Mappings"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:206
+msgid "Default Sale Tax"
+msgstr ""
+
+#: admin/views/field-mapper.php:44
+msgid "Delete"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:244
+msgid "Delta Sync"
+msgstr ""
+
+#: admin/views/help.php:251
+msgid "Describe the specific error or behavior you're seeing"
+msgstr ""
+
+#: admin/views/integrations.php:31
+msgid "Description"
+msgstr ""
+
+#: admin/views/field-mapper.php:27
+msgid "Direction"
+msgstr ""
+
+#: admin/views/integrations.php:66
+msgid "Disable"
+msgstr ""
+
+#: admin/views/integrations.php:58
+#: admin/views/welcome.php:176
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-woo-odoo-order-sync.php:221
+#: includes/class-woo-odoo-order-sync.php:257
+msgid "Discount"
+msgstr ""
+
+#: includes/class-woo-odoo-order-sync.php:221
+msgid "Discount: %s"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:381
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:302
+msgid "Dismissed."
+msgstr ""
+
+#: admin/views/warehouse-settings.php:65
+msgid "Display name"
+msgstr ""
+
+#: admin/views/help.php:261
+msgid "Do I need an API key or can I use my password?"
+msgstr ""
+
+#: admin/views/welcome.php:84
+msgid "Documentation"
+msgstr ""
+
+#: admin/views/welcome.php:190
+msgid "Don't show this screen again"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:418
+msgid "Done"
+msgstr ""
+
+#: admin/views/warehouse-settings.php:59
+msgid "Drag to reorder"
+msgstr ""
+
+#: admin/views/field-mapper.php:41
+msgid "Edit"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:81
+msgid "Email"
+msgstr ""
+
+#: admin/views/integrations.php:66
+msgid "Enable"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:735
+msgid "Enable AI-Powered Sync Optimizer"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:727
+msgid "Enable Advanced Analytics & Reporting API"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:719
+msgid "Enable B2B features (customer-specific pricing, credit limits, quotes)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:192
+msgid "Enable Logging"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:711
+msgid "Enable Multi-Currency support (Odoo pricelists)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:743
+msgid "Enable Real-Time Sync Engine (SSE / WebSocket)"
+msgstr ""
+
+#: admin/views/help.php:290
+msgid "Enable Real-time Sync for instant updates on create/update events."
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:291
+msgid "Enable customer synchronization"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:309
+msgid "Enable inventory synchronization"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:696
+msgid "Enable only when the site sits behind a trusted reverse proxy (nginx, Cloudflare, etc.). Leaving this on without a proxy lets clients spoof their IP."
+msgstr ""
+
+#: admin/views/help.php:127
+msgid "Enable only when your site sits behind a trusted reverse proxy (nginx, Cloudflare, etc.). Leaving this on without a proxy lets clients spoof their IP."
+msgstr ""
+
+#: admin/views/help.php:122
+msgid "Enable optional modules in Settings > Advanced Features. Each module adds REST endpoints, background tasks, or API calls — only activate what you actively use."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:687
+msgid "Enable optional modules. Each module adds REST endpoints, background tasks, or API calls — only activate what you actively use."
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:300
+msgid "Enable order synchronization"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:282
+msgid "Enable product synchronization"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:318
+msgid "Enable real-time synchronization"
+msgstr ""
+
+#: admin/views/help.php:237
+msgid "Enable the AI Optimizer to automatically tune batch sizes"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:703
+msgid "Enable the custom GraphQL REST endpoint"
+msgstr ""
+
+#: admin/views/help.php:132
+msgid "Enable the custom GraphQL REST endpoint at /wp-json/woo-odoo/v1/graphql"
+msgstr ""
+
+#: admin/views/help.php:55
+msgid "Enable the sync options you need:"
+msgstr ""
+
+#: admin/views/help.php:98
+msgid "Enable/disable sync for products, customers, orders, stock"
+msgstr ""
+
+#: admin/views/integrations.php:54
+#: admin/views/welcome.php:176
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:487
+msgid "Encryption migration failed: "
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:473
+msgid "Encryption upgraded successfully! %d fields and %d instances re-encrypted."
+msgstr ""
+
+#: admin/views/settings.php:82
+msgid "Enqueue bulk sync for large catalogs. Processes in batches of 50. Use date range for orders/customers."
+msgstr ""
+
+#: admin/views/help.php:207
+msgid "Ensure username is the full email address"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:923
+msgid "Enter a strong random secret (e.g. output of openssl rand -hex 32)."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:543
+msgid "Enter password or API key."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:497
+msgid "Enter your Odoo 18/19 instance details. Use XML-RPC (default port 8069)."
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:222
+msgid "Enter your Odoo connection details below."
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:342
+#: admin/views/dashboard.php:89
+msgid "Entity"
+msgstr ""
+
+#: admin/views/analytics.php:101
+msgid "Error Analysis"
+msgstr ""
+
+#: admin/views/dashboard.php:33
+msgid "Error Rate:"
+msgstr ""
+
+#: admin/views/help.php:168
+msgid "Error rate tracking"
+msgstr ""
+
+#: admin/views/webhooks.php:54
+msgid "Event"
+msgstr ""
+
+#: woo-odoo-connector.php:327
+#: includes/class-woo-odoo-options.php:111
+msgid "Every 15 Minutes"
+msgstr ""
+
+#: woo-odoo-connector.php:331
+#: includes/class-woo-odoo-options.php:112
+msgid "Every 30 Minutes"
+msgstr ""
+
+#: includes/class-woo-odoo-webhook-manager.php:1011
+msgid "Every 5 Minutes"
+msgstr ""
+
+#: includes/class-woo-odoo-options.php:108
+msgid "Every Hour"
+msgstr ""
+
+#: admin/views/help.php:133
+msgid "Example Query:"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:232
+msgid "Example: https://your-company.odoo.com"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:185
+msgid "Exclude PoS Products"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:650
+msgid "Exclude PoS products when importing from Odoo"
+msgstr ""
+
+#: admin/views/dashboard.php:256
+msgid "Export Logs (JSON)"
+msgstr ""
+
+#: admin/views/dashboard.php:253
+msgid "Export Metrics (CSV)"
+msgstr ""
+
+#: admin/views/dashboard.php:259
+msgid "Export Settings (JSON)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1696
+#: admin/class-woo-odoo-admin.php:1796
+msgid "Export failed."
+msgstr ""
+
+#: admin/views/help.php:113
+msgid "Export logs for support"
+msgstr ""
+
+#: admin/views/help.php:248
+msgid "Export logs from Dashboard > Export Logs (JSON)"
+msgstr ""
+
+#: admin/views/help.php:22
+msgid "FAQ"
+msgstr ""
+
+#: includes/class-woo-odoo-sync-columns.php:121
+#: admin/views/dashboard.php:91
+#: admin/views/dashboard.php:172
+msgid "Failed"
+msgstr ""
+
+#: admin/views/help.php:268
+msgid "Failed syncs are automatically added to the Retry Queue with exponential backoff (max 5 retries). You can view and manage the retry queue in Settings."
+msgstr ""
+
+#: admin/views/settings.php:108
+msgid "Failed syncs are queued for retry with exponential backoff (max 5 retries)."
+msgstr ""
+
+#: includes/class-woo-odoo-connection-manager.php:90
+msgid "Failed to establish connection to Odoo."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1094
+msgid "Failed to save configuration"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1090
+msgid "Failed to toggle integration"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:237
+msgid "Failure Notifications"
+msgstr ""
+
+#: admin/views/dashboard.php:47
+msgid "Failures:"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:344
+msgid "Field"
+msgstr ""
+
+#: includes/class-woo-odoo-field-mapper.php:937
+msgid "Field Mapper"
+msgstr ""
+
+#: admin/views/help.php:111
+msgid "Filter by level (error, warning, info)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:204
+msgid "Fiscal Position"
+msgstr ""
+
+#: admin/views/help.php:228
+msgid "Fix the underlying issue (check Logs for errors)"
+msgstr ""
+
+#: admin/views/help.php:208
+msgid "For API key auth, verify the key is valid and not expired"
+msgstr ""
+
+#: admin/views/help.php:71
+msgid "For large catalogs, use Queue Jobs to process in batches"
+msgstr ""
+
+#: includes/class-woo-odoo-b2b.php:397
+msgid "Forbidden"
+msgstr ""
+
+#: admin/views/help.php:258
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: admin/views/help.php:299
+msgid "GDPR compliance with data export/erasure"
+msgstr ""
+
+#: admin/views/welcome.php:103
+msgid "Get help from the community"
+msgstr ""
+
+#: admin/views/help.php:245
+msgid "Getting Support"
+msgstr ""
+
+#: admin/views/welcome.php:111
+msgid "GitHub Repository"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:344
+#: admin/class-woo-odoo-setup-wizard.php:351
+#: admin/views/help.php:90
+msgid "Go to Dashboard"
+msgstr ""
+
+#: admin/views/help.php:115
+msgid "Go to Logs"
+msgstr ""
+
+#: admin/views/help.php:45
+#: admin/views/help.php:104
+msgid "Go to Settings"
+msgstr ""
+
+#: admin/views/help.php:38
+msgid "Go to Settings and enter your Odoo instance details:"
+msgstr ""
+
+#: admin/views/help.php:67
+msgid "Go to Settings and use the Manual Sync buttons to test:"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:215
+#: admin/views/help.php:131
+msgid "GraphQL API"
+msgstr ""
+
+#: admin/views/help.php:100
+msgid "GraphQL, Multi-Currency, B2B, Analytics, AI Optimizer"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:115
+msgid "Help"
+msgstr ""
+
+#: admin/views/help.php:191
+msgid "High-traffic stores needing instant sync"
+msgstr ""
+
+#: admin/views/dashboard.php:65
+#: admin/views/analytics.php:54
+msgid "Hit Rate"
+msgstr ""
+
+#: admin/views/help.php:86
+msgid "Hit rate and memory usage"
+msgstr ""
+
+#: admin/views/help.php:316
+msgid "How do I enable debug logging?"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:270
+msgid "How long we retain your data"
+msgstr ""
+
+#: admin/views/help.php:282
+msgid "How often does automatic sync run?"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:343
+msgid "ID"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1603
+msgid "ID required"
+msgstr ""
+
+#: admin/views/help.php:203
+msgid "If the connection test fails:"
+msgstr ""
+
+#: admin/views/help.php:246
+msgid "If you need help:"
+msgstr ""
+
+#: admin/views/settings.php:147
+msgid "Import Products (Odoo → WC): %s"
+msgstr ""
+
+#: admin/views/settings.php:72
+msgid "Import Products Odoo → WC"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1974
+msgid "Import complete: %d imported, %d updated, %d failed."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1064
+msgid "Import failed."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1066
+#: admin/views/dashboard.php:275
+msgid "Import from Odoo"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:627
+msgid "Import price from Odoo when syncing products Odoo → WC"
+msgstr ""
+
+#: includes/class-woo-odoo-product-import.php:184
+msgid "Imported product from Odoo: %s (WC ID: %d)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1063
+msgid "Importing…"
+msgstr ""
+
+#: admin/views/help.php:250
+msgid "Include your WordPress and WooCommerce versions"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:161
+#: admin/class-woo-odoo-admin.php:1580
+msgid "Instance"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1586
+msgid "Instance added"
+msgstr ""
+
+#: admin/views/settings.php:120
+msgid "Instance name"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1607
+msgid "Instance removed"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:511
+msgid "Instance used for sync. Main connection fields below define the first instance."
+msgstr ""
+
+#: admin/views/integrations.php:30
+msgid "Integration"
+msgstr ""
+
+#: includes/class-woo-odoo-integrations.php:530
+msgid "Integrations"
+msgstr ""
+
+#: admin/views/integrations.php:84
+msgid "Integrations allow you to extend the Odoo connector with additional functionality such as payment gateways, shipping providers, and marketing tools."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:634
+msgid "Internal Reference (default_code)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1886
+msgid "Invalid JSON."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1289
+msgid "Invalid config."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1320
+msgid "Invalid product."
+msgstr ""
+
+#: includes/class-woo-odoo-sync-columns.php:175
+#: includes/class-woo-odoo-conflict-resolver.php:242
+msgid "Invalid request"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1431
+msgid "Invalid type"
+msgstr ""
+
+#: includes/class-woo-odoo-webhook-controller.php:90
+msgid "Invalid webhook signature."
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:202
+msgid "Inventory management"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:203
+msgid "Invoice Journal"
+msgstr ""
+
+#: admin/views/help.php:294
+msgid "Is my data secure?"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:790
+msgid "JSON-RPC (faster, Odoo 8+)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:793
+msgid "JSON-RPC uses /web/dataset/call_kw and avoids XML parsing overhead. Recommended for Odoo 16+."
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:198
+msgid "Key Features"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:772
+msgid "Key is saved (leave blank to keep)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:679
+msgid "Language for product/order sync. Load from Odoo to see installed languages."
+msgstr ""
+
+#: admin/views/dashboard.php:240
+msgid "Last 5 Sync Events"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:95
+msgid "Last Synced"
+msgstr ""
+
+#: admin/views/stock-breakdown-metabox.php:22
+msgid "Last Updated"
+msgstr ""
+
+#: admin/views/analytics.php:128
+msgid "Latency Percentiles"
+msgstr ""
+
+#: includes/class-woo-odoo-health-endpoint.php:152
+msgid "Legacy webhook format detected %d time(s). Update Odoo sender configuration."
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:209
+msgid "Let's Get Started!"
+msgstr ""
+
+#: admin/views/dashboard.php:268
+msgid "Limit:"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1082
+msgid "List ID"
+msgstr ""
+
+#: admin/views/dashboard.php:218
+msgid "Live Sync Health"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:943
+msgid "Load from Odoo"
+msgstr ""
+
+#: admin/views/analytics.php:26
+msgid "Loading analytics data..."
+msgstr ""
+
+#: admin/views/stock-breakdown-metabox.php:14
+msgid "Loading…"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:615
+msgid "Log before/after values (last 200 entries)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:609
+msgid "Log sync activity (last 500 entries)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:105
+#: admin/views/help.php:108
+msgid "Logs"
+msgstr ""
+
+#: admin/views/warehouse-settings.php:82
+msgid "Low stock threshold"
+msgstr ""
+
+#: admin/views/integrations.php:18
+msgid "Manage third-party integrations and extensions for the Odoo connector."
+msgstr ""
+
+#: admin/views/welcome.php:64
+msgid "Manual Configuration"
+msgstr ""
+
+#: admin/views/settings.php:68
+msgid "Manual Sync"
+msgstr ""
+
+#: admin/views/help.php:101
+msgid "Manual Sync:"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:638
+msgid "Map WooCommerce SKU to Odoo Internal Reference or Barcode."
+msgstr ""
+
+#: admin/views/field-mapper.php:19
+msgid "Map custom fields between WooCommerce and Odoo."
+msgstr ""
+
+#: admin/views/help.php:147
+msgid "Maps WooCommerce currencies to Odoo pricelists."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:712
+msgid "Maps WooCommerce currencies to Odoo pricelists. Only needed if you sell in multiple currencies."
+msgstr ""
+
+#: admin/views/dashboard.php:69
+msgid "Memory Items"
+msgstr ""
+
+#: admin/views/dashboard.php:73
+msgid "Memory Size"
+msgstr ""
+
+#: admin/views/dashboard.php:198
+#: admin/views/webhooks.php:56
+msgid "Message"
+msgstr ""
+
+#: woo-odoo-connector.php:353
+msgid "Migrate Now"
+msgstr ""
+
+#: includes/class-woo-odoo-webhook-controller.php:74
+msgid "Missing X-Woo-Odoo-Secret header."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:216
+msgid "Multi-Currency"
+msgstr ""
+
+#: admin/views/help.php:146
+msgid "Multi-Currency Support"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:248
+msgid "Multi-Warehouse Stock"
+msgstr ""
+
+#: admin/views/help.php:192
+msgid "Multi-channel inventory management"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:80
+msgid "Name"
+msgstr ""
+
+#: admin/views/help.php:19
+msgid "Navigation"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:95
+msgid "Never"
+msgstr ""
+
+#: includes/class-woo-odoo-instances.php:110
+msgid "New Instance"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:342
+msgid "Next Steps"
+msgstr ""
+
+#: admin/views/logs.php:41
+msgid "No audit entries yet."
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:337
+msgid "No conflicts detected."
+msgstr ""
+
+#: admin/views/field-mapper.php:51
+msgid "No custom field mappings configured."
+msgstr ""
+
+#: admin/views/dashboard.php:192
+msgid "No errors in the last 24 hours. Great job!"
+msgstr ""
+
+#: admin/views/integrations.php:82
+msgid "No integrations available at this time."
+msgstr ""
+
+#: admin/views/settings.php:159
+#: admin/views/logs.php:25
+msgid "No log entries yet."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1067
+msgid "No recent events."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1874
+msgid "No settings data provided."
+msgstr ""
+
+#: includes/class-woo-odoo-order-sync.php:112
+msgid "No valid order lines to sync."
+msgstr ""
+
+#: admin/views/webhooks.php:75
+msgid "No webhook logs found."
+msgstr ""
+
+#: admin/views/welcome.php:148
+msgid "Not Active"
+msgstr ""
+
+#: admin/views/welcome.php:164
+msgid "Not Configured"
+msgstr ""
+
+#: admin/views/help.php:159
+msgid "Not needed for standard B2C stores."
+msgstr ""
+
+#: includes/class-woo-odoo-ai-optimizer.php:748
+msgid "Odoo AI Optimizer"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:230
+msgid "Odoo API Key"
+msgstr ""
+
+#: includes/class-odoo-api.php:377
+msgid "Odoo API error: %s"
+msgstr ""
+
+#: includes/class-odoo-api-jsonrpc.php:91
+#: includes/class-odoo-api.php:110
+msgid "Odoo API key is not configured."
+msgstr ""
+
+#: includes/class-woo-odoo-analytics.php:675
+msgid "Odoo Analytics"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:317
+#: includes/class-woo-odoo-conflict-resolver.php:333
+msgid "Odoo Conflict Resolver"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:156
+#: admin/views/welcome.php:156
+msgid "Odoo Connection"
+msgstr ""
+
+#: admin/views/help.php:97
+msgid "Odoo Connection:"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:72
+#: admin/class-woo-odoo-admin.php:73
+msgid "Odoo Connector"
+msgstr ""
+
+#: admin/views/analytics.php:13
+msgid "Odoo Connector Analytics"
+msgstr ""
+
+#: admin/views/dashboard.php:22
+msgid "Odoo Connector Dashboard"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:94
+msgid "Odoo Customer ID"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:84
+msgid "Odoo Dashboard"
+msgstr ""
+
+#: admin/views/field-mapper.php:25
+#: admin/views/field-mapper.php:72
+msgid "Odoo Field"
+msgstr ""
+
+#: includes/class-woo-odoo-field-mapper.php:936
+#: admin/views/field-mapper.php:14
+msgid "Odoo Field Mapper"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:114
+msgid "Odoo Help"
+msgstr ""
+
+#: includes/class-woo-odoo-integrations.php:529
+#: admin/views/integrations.php:14
+msgid "Odoo Integrations"
+msgstr ""
+
+#: includes/class-odoo-api-jsonrpc.php:116
+msgid "Odoo JSON-RPC authentication failed. Check credentials."
+msgstr ""
+
+#: includes/class-odoo-api-jsonrpc.php:266
+msgid "Odoo JSON-RPC error: %s"
+msgstr ""
+
+#: includes/class-odoo-api-jsonrpc.php:253
+msgid "Odoo JSON-RPC request failed: %s"
+msgstr ""
+
+#: includes/class-odoo-api-jsonrpc.php:261
+msgid "Odoo JSON-RPC returned invalid JSON."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:187
+msgid "Odoo Language"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:104
+msgid "Odoo Logs"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:116
+msgid "Odoo Order ID"
+msgstr ""
+
+#: includes/class-woo-odoo-realtime-sync.php:821
+msgid "Odoo Real-Time Sync"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:94
+msgid "Odoo Settings"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1145
+msgid "Odoo Stock by Warehouse"
+msgstr ""
+
+#: includes/class-woo-odoo-sync-columns.php:48
+#: includes/class-woo-odoo-sync-columns.php:73
+msgid "Odoo Sync"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:91
+msgid "Odoo Sync Data"
+msgstr ""
+
+#: admin/views/logs.php:16
+msgid "Odoo Sync Logs"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:231
+msgid "Odoo UID (API key)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:162
+#: admin/class-woo-odoo-setup-wizard.php:229
+#: admin/views/settings.php:121
+msgid "Odoo URL"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1959
+msgid "Odoo URL is not configured."
+msgstr ""
+
+#: admin/views/help.php:40
+msgid "Odoo URL:"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:346
+msgid "Odoo Value"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:186
+msgid "Odoo Version"
+msgstr ""
+
+#: admin/views/warehouse-settings.php:29
+msgid "Odoo Warehouses"
+msgstr ""
+
+#: includes/class-woo-odoo-webhook-manager.php:924
+#: admin/views/webhooks.php:14
+msgid "Odoo Webhooks"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:378
+msgid "Odoo Wins"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:206
+msgid "Odoo anonymization pending — retry when Odoo connection is restored."
+msgstr ""
+
+#: includes/class-odoo-api-enhanced.php:205
+msgid "Odoo auth failed: %s"
+msgstr ""
+
+#: includes/class-odoo-api.php:129
+#: includes/class-odoo-api-enhanced.php:211
+msgid "Odoo authentication failed. Check credentials."
+msgstr ""
+
+#: includes/class-odoo-api-jsonrpc.php:98
+#: includes/class-odoo-api.php:117
+#: includes/class-odoo-api-enhanced.php:194
+msgid "Odoo connection settings are incomplete."
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:176
+#: includes/class-woo-odoo-privacy.php:201
+#: includes/class-woo-odoo-privacy.php:213
+msgid "Odoo sync data removed"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:781
+msgid "Odoo user ID associated with the API key (default: 1 for the admin user)."
+msgstr ""
+
+#: admin/views/help.php:276
+msgid "Odoo → WooCommerce: Stock levels, Prices, Product imports"
+msgstr ""
+
+#: includes/class-woo-odoo-options.php:110
+msgid "Once Daily"
+msgstr ""
+
+#: admin/views/help.php:148
+msgid "Only needed if you sell in multiple currencies. Automatically syncs prices based on customer currency."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:830
+msgid "Only sync records that have changed since the last sync"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:369
+msgid "Open"
+msgstr ""
+
+#: includes/class-woo-odoo-sync-columns.php:134
+msgid "Open in Odoo"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:930
+msgid "Optional accounting settings for sale orders and invoices. Load options from Odoo after saving connection."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1251
+msgid "Options refreshed. Reloading..."
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:113
+msgid "Order ID"
+msgstr ""
+
+#: admin/views/dashboard.php:126
+msgid "Order Sync"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:266
+msgid "Order details and purchase history"
+msgstr ""
+
+#: includes/class-woo-odoo-b2b.php:233
+msgid "Order total exceeds available credit. Available: %s, Required: %s"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:190
+msgid "Orders Cron"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:110
+msgid "Orders synced to Odoo"
+msgstr ""
+
+#: admin/views/settings.php:144
+msgid "Orders: %s"
+msgstr ""
+
+#: admin/views/help.php:287
+msgid "Orders: Every 15 minutes (default)"
+msgstr ""
+
+#: admin/views/help.php:84
+msgid "Overall connection status and error rate"
+msgstr ""
+
+#: admin/views/analytics.php:65
+msgid "Overview"
+msgstr ""
+
+#: admin/views/help.php:297
+msgid "PBKDF2 encryption for passwords and API keys"
+msgstr ""
+
+#: admin/views/welcome.php:125
+msgid "PHP Version"
+msgstr ""
+
+#: admin/views/settings.php:124
+msgid "Password"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:165
+#: admin/class-woo-odoo-setup-wizard.php:248
+msgid "Password / API Key"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:541
+msgid "Password is set. Leave blank to keep existing password."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:436
+msgid "Password migration failed: "
+msgstr ""
+
+#: admin/views/help.php:43
+msgid "Password/API Key:"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:429
+msgid "Passwords encrypted successfully!"
+msgstr ""
+
+#: includes/class-woo-odoo-sync-columns.php:120
+msgid "Pending"
+msgstr ""
+
+#: admin/views/analytics.php:66
+msgid "Performance"
+msgstr ""
+
+#: admin/views/analytics.php:143
+msgid "Performance Bottlenecks"
+msgstr ""
+
+#: admin/views/dashboard.php:121
+#: admin/views/analytics.php:107
+msgid "Performance Metrics"
+msgstr ""
+
+#: admin/views/help.php:88
+msgid "Performance Metrics:"
+msgstr ""
+
+#: admin/views/analytics.php:194
+msgid "Performance Prediction"
+msgstr ""
+
+#: admin/views/analytics.php:119
+msgid "Performance Trend (30 Days)"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:82
+msgid "Phone"
+msgstr ""
+
+#: admin/views/help.php:78
+msgid "Plugin Navigation"
+msgstr ""
+
+#: admin/views/analytics.php:69
+msgid "Predictions"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:844
+msgid "Primary only (priority 1, then cascade)"
+msgstr ""
+
+#: admin/views/warehouse-settings.php:78
+msgid "Priority"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1083
+msgid "Private API Key"
+msgstr ""
+
+#: admin/views/settings.php:110
+msgid "Process Retries Now"
+msgstr ""
+
+#: admin/views/dashboard.php:266
+msgid "Product Import (Odoo → WooCommerce)"
+msgstr ""
+
+#: admin/views/dashboard.php:125
+msgid "Product Sync"
+msgstr ""
+
+#: admin/views/analytics.php:155
+msgid "Product Sync Insights"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:267
+msgid "Product information and inventory data"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:201
+msgid "Product, customer, and order sync"
+msgstr ""
+
+#: admin/views/analytics.php:67
+msgid "Products"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:188
+msgid "Products Cron"
+msgstr ""
+
+#: admin/views/help.php:214
+msgid "Products Not Syncing"
+msgstr ""
+
+#: admin/views/settings.php:142
+msgid "Products: %s"
+msgstr ""
+
+#: admin/views/help.php:285
+msgid "Products: Hourly (default)"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:77
+msgid "Profile (WooCommerce)"
+msgstr ""
+
+#: admin/views/settings.php:75
+msgid "Pull Stock from Odoo"
+msgstr ""
+
+#: admin/views/help.php:61
+msgid "Pull stock levels from Odoo to WooCommerce"
+msgstr ""
+
+#: admin/views/help.php:59
+msgid "Push WooCommerce customers to Odoo"
+msgstr ""
+
+#: admin/views/help.php:60
+msgid "Push WooCommerce orders to Odoo"
+msgstr ""
+
+#: admin/views/help.php:58
+msgid "Push WooCommerce products to Odoo"
+msgstr ""
+
+#: admin/views/settings.php:69
+msgid "Push data to Odoo or pull stock from Odoo."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:567
+msgid "Push products, customers, and orders to Odoo on create/update"
+msgstr ""
+
+#: admin/views/help.php:186
+msgid "Pushes changes instantly via Server-Sent Events (SSE)."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:744
+msgid "Pushes changes instantly via Server-Sent Events. Requires a persistent PHP process (not compatible with basic shared hosting)."
+msgstr ""
+
+#: admin/views/settings.php:91
+msgid "Queue Customers"
+msgstr ""
+
+#: admin/views/settings.php:81
+msgid "Queue Jobs (Action Scheduler)"
+msgstr ""
+
+#: admin/views/help.php:102
+msgid "Queue Jobs:"
+msgstr ""
+
+#: admin/views/settings.php:92
+msgid "Queue Orders"
+msgstr ""
+
+#: admin/views/settings.php:30
+msgid "Queue Pending"
+msgstr ""
+
+#: admin/views/settings.php:90
+msgid "Queue Products"
+msgstr ""
+
+#: admin/views/settings.php:34
+msgid "Queue Running"
+msgstr ""
+
+#: admin/views/settings.php:93
+msgid "Queue Stock"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1505
+msgid "Queue cancelled"
+msgstr ""
+
+#: admin/views/dashboard.php:247
+msgid "Quick Actions"
+msgstr ""
+
+#: admin/views/welcome.php:55
+msgid "Quick Setup"
+msgstr ""
+
+#: admin/views/help.php:18
+msgid "Quick Start"
+msgstr ""
+
+#: admin/views/help.php:28
+msgid "Quick Start Guide"
+msgstr ""
+
+#: admin/views/help.php:157
+msgid "Quote management"
+msgstr ""
+
+#: includes/class-woo-odoo-b2b.php:467
+msgid "Quote request submitted successfully"
+msgstr ""
+
+#: includes/class-odoo-api-jsonrpc.php:131
+#: includes/class-odoo-api.php:161
+msgid "Rate limit exceeded. Try again in %d seconds."
+msgstr ""
+
+#: admin/views/help.php:298
+msgid "Rate limiting on all AJAX endpoints"
+msgstr ""
+
+#: admin/views/welcome.php:87
+msgid "Read Docs"
+msgstr ""
+
+#: includes/class-woo-odoo-realtime-sync.php:822
+msgid "Real-Time Sync"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:220
+#: admin/views/help.php:185
+msgid "Real-Time Sync Engine"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:174
+#: admin/class-woo-odoo-setup-wizard.php:314
+msgid "Real-time Sync"
+msgstr ""
+
+#: admin/views/help.php:57
+msgid "Real-time Sync:"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:200
+msgid "Real-time bidirectional synchronization"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:802
+msgid "Receive a daily digest when sync jobs are stuck or failing."
+msgstr ""
+
+#: admin/views/dashboard.php:183
+msgid "Recent Errors"
+msgstr ""
+
+#: admin/views/webhooks.php:48
+msgid "Recent Webhook Logs"
+msgstr ""
+
+#: admin/views/logs.php:22
+msgid "Recent sync activity. Enable logging in Odoo Connector settings."
+msgstr ""
+
+#: admin/views/settings.php:156
+msgid "Recent sync activity. Enable logging in Sync Options."
+msgstr ""
+
+#: admin/views/dashboard.php:250
+msgid "Refresh Dashboard"
+msgstr ""
+
+#: admin/views/analytics.php:20
+msgid "Refresh Data"
+msgstr ""
+
+#: admin/views/warehouse-settings.php:32
+msgid "Refresh from Odoo"
+msgstr ""
+
+#: admin/views/stock-breakdown-metabox.php:28
+msgid "Refresh stock"
+msgstr ""
+
+#: includes/class-woo-odoo-webhook-controller.php:383
+msgid "Refund from Odoo"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:704
+msgid "Registers <code>/wp-json/woo-odoo/v1/graphql</code>. Requires authentication."
+msgstr ""
+
+#: admin/views/help.php:164
+msgid "Registers analytics REST endpoints for detailed reporting:"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:728
+msgid "Registers analytics REST endpoints. Requires authentication."
+msgstr ""
+
+#: admin/views/welcome.php:112
+msgid "Report issues and contribute"
+msgstr ""
+
+#: includes/class-woo-odoo-b2b.php:444
+msgid "Request Quote"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1065
+msgid "Request failed."
+msgstr ""
+
+#: admin/views/help.php:187
+msgid "Requirements:"
+msgstr ""
+
+#: admin/views/help.php:187
+msgid "Requires a persistent PHP process. Not compatible with basic shared hosting."
+msgstr ""
+
+#: admin/views/help.php:170
+msgid "Requires authentication. Access via /wp-json/woo-odoo/v1/analytics"
+msgstr ""
+
+#: admin/views/help.php:142
+msgid "Requires authentication. Use with REST API credentials."
+msgstr ""
+
+#: admin/views/stock-breakdown-metabox.php:20
+msgid "Reserved"
+msgstr ""
+
+#: admin/views/dashboard.php:54
+msgid "Reset Circuit"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1061
+msgid "Reset circuit breaker?"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:417
+msgid "Resolved"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:367
+msgid "Resolved (%s wins)"
+msgstr ""
+
+#: admin/views/welcome.php:80
+msgid "Resources & Documentation"
+msgstr ""
+
+#: admin/views/dashboard.php:49
+msgid "Retry After:"
+msgstr ""
+
+#: admin/views/webhooks.php:81
+#: admin/views/settings.php:107
+msgid "Retry Queue"
+msgstr ""
+
+#: admin/views/dashboard.php:227
+msgid "Retry Queue Depth"
+msgstr ""
+
+#: admin/views/help.php:179
+msgid "Retry intervals based on failure patterns"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1555
+msgid "Retry queue cleared"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1539
+msgid "Retry scheduled"
+msgstr ""
+
+#: admin/views/help.php:218
+msgid "Review the Logs page for specific error messages"
+msgstr ""
+
+#: admin/views/welcome.php:60
+msgid "Run Setup Wizard"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:183
+msgid "SKU Mapping"
+msgstr ""
+
+#: admin/views/integrations.php:100
+msgid "Save Configuration"
+msgstr ""
+
+#: admin/views/settings.php:51
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/warehouse-settings.php:93
+msgid "Save warehouse config"
+msgstr ""
+
+#: admin/views/settings.php:131
+msgid "Scheduled Sync (WP Cron)"
+msgstr ""
+
+#: admin/views/help.php:112
+msgid "Search by keyword"
+msgstr ""
+
+#: admin/views/analytics.php:49
+msgid "Seconds"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:921
+msgid "Secret is set. Leave blank to keep the existing secret."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:823
+msgid "Send an alert when a sync job has been in the retry queue longer than this many hours."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:95
+#: admin/views/help.php:94
+msgid "Settings"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1880
+msgid "Settings file too large. Maximum 1MB allowed."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1911
+msgid "Settings imported successfully."
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:338
+msgid "Setup Complete!"
+msgstr ""
+
+#: admin/views/help.php:32
+msgid "Setup Required:"
+msgstr ""
+
+#: includes/integrations/class-woo-odoo-integration-shipstation.php:349
+msgid "Shipment created via ShipStation. Tracking: %s"
+msgstr ""
+
+#: includes/integrations/class-woo-odoo-integration-shipstation.php:355
+msgid "Shipped via ShipStation"
+msgstr ""
+
+#: includes/class-woo-odoo-order-sync.php:162
+#: includes/class-woo-odoo-order-sync.php:194
+msgid "Shipping"
+msgstr ""
+
+#: admin/views/warehouse-settings.php:69
+msgid "Shipping zone"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:210
+msgid "Skip Setup"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:242
+msgid "Slack / Discord Webhook"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:816
+msgid "Slack or Discord incoming webhook URL. Leave blank to disable."
+msgstr ""
+
+#: admin/views/help.php:235
+msgid "Slow Sync Performance"
+msgstr ""
+
+#: admin/views/dashboard.php:231
+msgid "Stale Failures (&gt;2h)"
+msgstr ""
+
+#: admin/views/help.php:69
+msgid "Start with a small test - sync a few products first"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:347
+#: admin/views/webhooks.php:55
+#: admin/views/integrations.php:32
+msgid "Status"
+msgstr ""
+
+#: admin/views/welcome.php:94
+msgid "Step-by-step video guides"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:191
+msgid "Stock Cron"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:252
+msgid "Stock Display Mode"
+msgstr ""
+
+#: admin/views/dashboard.php:127
+msgid "Stock Sync"
+msgstr ""
+
+#: admin/views/settings.php:145
+msgid "Stock: %s"
+msgstr ""
+
+#: admin/views/help.php:288
+msgid "Stock: Every 30 minutes (default)"
+msgstr ""
+
+#: admin/views/dashboard.php:90
+msgid "Success"
+msgstr ""
+
+#: admin/views/dashboard.php:92
+#: admin/views/dashboard.php:176
+#: admin/views/analytics.php:44
+msgid "Success Rate"
+msgstr ""
+
+#: admin/views/analytics.php:83
+msgid "Success Rates"
+msgstr ""
+
+#: admin/views/help.php:87
+msgid "Success/failure counts for the last 24 hours"
+msgstr ""
+
+#: admin/views/dashboard.php:168
+msgid "Successful"
+msgstr ""
+
+#: admin/views/welcome.php:102
+msgid "Support Forum"
+msgstr ""
+
+#: admin/views/settings.php:23
+msgid "Sync & Integrate"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:287
+#: admin/views/settings.php:73
+msgid "Sync Customers"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:176
+msgid "Sync Customers to Odoo"
+msgstr ""
+
+#: admin/views/help.php:59
+msgid "Sync Customers:"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:117
+msgid "Sync Date"
+msgstr ""
+
+#: admin/views/settings.php:155
+#: admin/views/logs.php:21
+msgid "Sync Log"
+msgstr ""
+
+#: includes/class-woo-odoo-sync-columns.php:155
+#: includes/class-woo-odoo-sync-columns.php:243
+#: includes/class-woo-odoo-sync-columns.php:246
+msgid "Sync Now"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:169
+#: admin/class-woo-odoo-setup-wizard.php:67
+#: admin/class-woo-odoo-setup-wizard.php:270
+msgid "Sync Options"
+msgstr ""
+
+#: admin/views/help.php:98
+msgid "Sync Options:"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:296
+#: admin/views/settings.php:74
+msgid "Sync Orders"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:177
+msgid "Sync Orders to Odoo"
+msgstr ""
+
+#: admin/views/help.php:60
+msgid "Sync Orders:"
+msgstr ""
+
+#: admin/views/dashboard.php:270
+msgid "Sync Price"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:182
+msgid "Sync Price from Odoo"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:179
+msgid "Sync Product Categories"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:180
+msgid "Sync Product Images"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:278
+msgid "Sync Products"
+msgstr ""
+
+#: admin/views/settings.php:71
+msgid "Sync Products WC → Odoo"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:175
+msgid "Sync Products to Odoo"
+msgstr ""
+
+#: admin/views/help.php:58
+msgid "Sync Products:"
+msgstr ""
+
+#: admin/views/settings.php:46
+msgid "Sync Settings"
+msgstr ""
+
+#: admin/views/analytics.php:77
+msgid "Sync Statistics"
+msgstr ""
+
+#: admin/views/dashboard.php:85
+msgid "Sync Statistics (Last 24 Hours)"
+msgstr ""
+
+#: admin/views/help.php:87
+msgid "Sync Statistics:"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:305
+#: admin/views/dashboard.php:272
+msgid "Sync Stock"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:178
+msgid "Sync Stock from Odoo"
+msgstr ""
+
+#: admin/views/help.php:61
+msgid "Sync Stock:"
+msgstr ""
+
+#: admin/views/analytics.php:42
+msgid "Sync Success"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:181
+msgid "Sync Variable Products"
+msgstr ""
+
+#: admin/views/analytics.php:185
+msgid "Sync Volume Forecast (7 Days)"
+msgstr ""
+
+#: admin/views/analytics.php:92
+msgid "Sync Volume Trend (30 Days)"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:320
+msgid "Sync changes immediately instead of on schedule"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:579
+msgid "Sync customers WC → Odoo"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:271
+msgid "Sync data is retained as long as the plugin is active. You can request deletion via WordPress privacy tools."
+msgstr ""
+
+#: admin/views/help.php:180
+msgid "Sync frequency during peak/off-peak hours"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:585
+msgid "Sync orders WC → Odoo"
+msgstr ""
+
+#: admin/views/help.php:166
+msgid "Sync performance metrics"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:597
+msgid "Sync product categories to Odoo"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:603
+msgid "Sync product images to Odoo"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:621
+msgid "Sync product variations as Odoo product.product"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:573
+msgid "Sync products WC → Odoo"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:591
+msgid "Sync stock Odoo → WC"
+msgstr ""
+
+#: includes/class-woo-odoo-sync-columns.php:119
+#: includes/class-woo-odoo-sync-columns.php:242
+msgid "Synced"
+msgstr ""
+
+#: includes/class-woo-odoo-sync-columns.php:198
+msgid "Synced!"
+msgstr ""
+
+#: includes/class-woo-odoo-sync-columns.php:231
+msgid "Syncing…"
+msgstr ""
+
+#: admin/views/analytics.php:39
+msgid "System Availability"
+msgstr ""
+
+#: admin/views/dashboard.php:27
+msgid "System Health"
+msgstr ""
+
+#: admin/views/help.php:84
+msgid "System Health:"
+msgstr ""
+
+#: admin/views/welcome.php:121
+msgid "System Status"
+msgstr ""
+
+#: admin/views/settings.php:61
+msgid "Test Connection"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1930
+msgid "Test alert sent (check email / Slack)."
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:195
+msgid "Thank you for choosing OdooSync for WooCommerce. This wizard will help you configure the plugin and connect to your Odoo instance."
+msgstr ""
+
+#: admin/views/welcome.php:50
+msgid "Thank you for installing OdooSync for WooCommerce!"
+msgstr ""
+
+#: admin/views/help.php:176
+msgid "The AI Optimizer learns from your sync patterns and adjusts:"
+msgstr ""
+
+#: admin/views/help.php:82
+msgid "The Dashboard provides an overview of your sync health and performance:"
+msgstr ""
+
+#: admin/views/help.php:225
+msgid "The circuit breaker automatically opens after repeated failures to protect your system."
+msgstr ""
+
+#: admin/views/help.php:230
+msgid "The circuit will automatically close after the retry period if issues are resolved"
+msgstr ""
+
+#: admin/views/help.php:312
+msgid "The plugin is tested with Odoo 18 and 19, but should work with Odoo 16+ with minor adjustments. Select your Odoo version in Settings > Sync Options."
+msgstr ""
+
+#: admin/views/webhooks.php:82
+msgid "There are %d webhooks pending retry."
+msgstr ""
+
+#: admin/views/field-mapper.php:66
+msgid "These are the default field mappings used by the connector."
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:334
+msgid "These records have different values in WooCommerce and Odoo. Choose which side wins, or dismiss."
+msgstr ""
+
+#: woo-odoo-connector.php:396
+msgid "This is a one-time operation and will not affect your existing data. Backup recommended before proceeding."
+msgstr ""
+
+#: admin/views/welcome.php:51
+msgid "This plugin provides enterprise-grade bidirectional synchronization between WooCommerce and Odoo. Let's get you started!"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:263
+msgid "This plugin synchronizes your store data with Odoo ERP system."
+msgstr ""
+
+#: admin/views/analytics.php:134
+msgid "Throughput"
+msgstr ""
+
+#: admin/views/dashboard.php:197
+msgid "Time"
+msgstr ""
+
+#: admin/views/webhooks.php:53
+msgid "Timestamp"
+msgstr ""
+
+#: admin/views/help.php:263
+msgid "To create an API key in Odoo 16+: Settings > Users > Your User > API Keys"
+msgstr ""
+
+#: admin/views/help.php:226
+msgid "To resolve:"
+msgstr ""
+
+#: includes/class-woo-odoo-rate-limiter-ajax.php:128
+msgid "Too many requests. Please try again later."
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:115
+#: admin/views/stock-breakdown-metabox.php:21
+msgid "Total"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:842
+msgid "Total (sum all enabled warehouses)"
+msgstr ""
+
+#: admin/views/dashboard.php:164
+msgid "Total API Calls"
+msgstr ""
+
+#: admin/views/dashboard.php:34
+msgid "Total Operations:"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1087
+msgid "Tracking ID"
+msgstr ""
+
+#: admin/views/help.php:101
+msgid "Trigger immediate sync operations"
+msgstr ""
+
+#: admin/views/help.php:21
+#: admin/views/help.php:199
+msgid "Troubleshooting"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:214
+#: admin/views/help.php:125
+msgid "Trust Reverse-Proxy Headers"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:695
+msgid "Trust X-Forwarded-For / CF-Connecting-IP headers for rate limiting"
+msgstr ""
+
+#: admin/views/help.php:126
+msgid "Trust X-Forwarded-For / CF-Connecting-IP headers for rate limiting."
+msgstr ""
+
+#: includes/class-woo-odoo-options.php:109
+msgid "Twice Daily"
+msgstr ""
+
+#: admin/views/field-mapper.php:26
+#: admin/views/field-mapper.php:73
+msgid "Type"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1576
+msgid "URL and username required"
+msgstr ""
+
+#: admin/views/help.php:97
+msgid "URL, database, credentials"
+msgstr ""
+
+#: includes/class-woo-odoo-alert-manager.php:169
+#: includes/class-woo-odoo-webhook-controller.php:64
+#: includes/class-woo-odoo-sync-columns.php:168
+msgid "Unauthorized"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:420
+#: admin/class-woo-odoo-admin.php:466
+msgid "Unauthorized access"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1894
+msgid "Unexpected settings format."
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:274
+msgid "Unknown conflict type."
+msgstr ""
+
+#: includes/class-woo-odoo-customer-sync.php:52
+msgid "Updated customer %d in Odoo (ID: %s)"
+msgstr ""
+
+#: includes/class-woo-odoo-product-import.php:268
+msgid "Updated product %d from Odoo"
+msgstr ""
+
+#: includes/class-woo-odoo-product-sync.php:61
+msgid "Updated product %d in Odoo (ID: %s)"
+msgstr ""
+
+#: woo-odoo-connector.php:392
+msgid "Upgrade Encryption Now"
+msgstr ""
+
+#: admin/views/analytics.php:37
+msgid "Uptime"
+msgstr ""
+
+#: admin/views/help.php:238
+msgid "Use Queue Jobs for large catalogs instead of manual sync"
+msgstr ""
+
+#: admin/views/webhooks.php:27
+msgid "Use this URL in your Odoo webhook configuration."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:164
+#: admin/class-woo-odoo-setup-wizard.php:242
+#: admin/views/settings.php:123
+msgid "Username"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:760
+msgid "Username + Password (XML-RPC authenticate)"
+msgstr ""
+
+#: admin/views/help.php:42
+msgid "Username:"
+msgstr ""
+
+#: admin/views/help.php:190
+msgid "VPS or dedicated servers"
+msgstr ""
+
+#: admin/views/help.php:205
+msgid "Verify your Odoo URL is correct (include https://)"
+msgstr ""
+
+#: admin/views/settings.php:58
+msgid "Verify your Odoo connection before syncing."
+msgstr ""
+
+#: admin/views/help.php:219
+msgid "Verify your Odoo user has permissions to create/update products"
+msgstr ""
+
+#: admin/views/welcome.php:43
+msgid "Version %s"
+msgstr ""
+
+#: admin/views/welcome.php:93
+msgid "Video Tutorials"
+msgstr ""
+
+#: admin/views/settings.php:37
+msgid "View Action Scheduler"
+msgstr ""
+
+#: admin/views/dashboard.php:262
+msgid "View All Logs"
+msgstr ""
+
+#: admin/views/welcome.php:73
+msgid "View Settings"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:346
+msgid "View Sync Logs"
+msgstr ""
+
+#: admin/views/help.php:109
+msgid "View detailed sync activity and troubleshoot issues:"
+msgstr ""
+
+#: admin/views/welcome.php:114
+msgid "View on GitHub"
+msgstr ""
+
+#: admin/views/welcome.php:105
+msgid "Visit Forum"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:345
+msgid "WC Value"
+msgstr ""
+
+#: includes/class-woo-odoo-conflict-resolver.php:375
+msgid "WC Wins"
+msgstr ""
+
+#: includes/class-woo-odoo-health-endpoint.php:142
+msgid "WP-Cron is active. For reliable sync on production stores, disable WP-Cron and use a system cron job."
+msgstr ""
+
+#: admin/views/stock-breakdown-metabox.php:18
+msgid "Warehouse"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1305
+msgid "Warehouse config saved."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:1265
+#: admin/class-woo-odoo-admin.php:1283
+msgid "Warehouse manager not loaded."
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:123
+#: admin/class-woo-odoo-admin.php:124
+#: admin/views/warehouse-settings.php:25
+msgid "Warehouses"
+msgstr ""
+
+#: admin/views/welcome.php:96
+msgid "Watch Videos"
+msgstr ""
+
+#: admin/views/webhooks.php:18
+msgid "Webhook Configuration"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:194
+#: admin/class-woo-odoo-admin.php:1081
+#: admin/views/webhooks.php:32
+msgid "Webhook Secret"
+msgstr ""
+
+#: admin/views/webhooks.php:23
+msgid "Webhook URL"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:926
+msgid "Webhook URL:"
+msgstr ""
+
+#: admin/views/help.php:300
+msgid "Webhook signature verification"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:203
+msgid "Webhook support"
+msgstr ""
+
+#: includes/class-woo-odoo-webhook-controller.php:69
+msgid "Webhook timestamp outside allowed window."
+msgstr ""
+
+#: includes/class-woo-odoo-webhook-manager.php:925
+msgid "Webhooks"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:57
+msgid "Welcome"
+msgstr ""
+
+#: admin/views/welcome.php:38
+msgid "Welcome to OdooSync for WooCommerce"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:194
+msgid "Welcome to OdooSync for WooCommerce!"
+msgstr ""
+
+#: admin/views/help.php:311
+msgid "What Odoo versions are supported?"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:264
+msgid "What data we collect"
+msgstr ""
+
+#: admin/views/help.php:267
+msgid "What happens if sync fails?"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:835
+msgid "When using multiple Odoo warehouses (configured under Warehouses tab), choose how stock is shown to customers."
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:268
+msgid "Where we send your data"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:763
+msgid "With API Key auth the password is never stored — only the key is needed."
+msgstr ""
+
+#: includes/class-woo-odoo-queue.php:29
+#: includes/class-woo-odoo-queue.php:81
+msgid "Woo-Odoo: Action Scheduler is required for bulk sync. Ensure WooCommerce is active."
+msgstr ""
+
+#: admin/views/welcome.php:141
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/views/field-mapper.php:24
+#: admin/views/field-mapper.php:71
+msgid "WooCommerce Field"
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:34
+#: includes/class-woo-odoo-privacy.php:138
+#: includes/class-woo-odoo-privacy.php:262
+msgid "OdooSync for WooCommerce"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:125
+msgid "OdooSync for WooCommerce › Setup Wizard"
+msgstr ""
+
+#: woo-odoo-connector.php:382
+msgid "OdooSync for WooCommerce – Encryption Upgrade Available"
+msgstr ""
+
+#: admin/views/help.php:15
+msgid "OdooSync for WooCommerce – Help & Documentation"
+msgstr ""
+
+#: woo-odoo-connector.php:55
+msgid "OdooSync for WooCommerce requires WooCommerce to be installed and active."
+msgstr ""
+
+#: woo-odoo-connector.php:256
+msgid "OdooSync for WooCommerce requires WooCommerce."
+msgstr ""
+
+#: woo-odoo-connector.php:345
+msgid "OdooSync for WooCommerce:"
+msgstr ""
+
+#: includes/class-woo-odoo-order-sync.php:57
+msgid "WooCommerce Order #%s | Payment: %s"
+msgstr ""
+
+#: admin/views/help.php:275
+msgid "WooCommerce → Odoo: Products, Customers, Orders"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:789
+msgid "XML-RPC (default, widest compatibility)"
+msgstr ""
+
+#: admin/views/help.php:307
+msgid "Yes! Go to Settings > Additional Odoo Instances to add more connections. You can switch between instances using the Instance dropdown."
+msgstr ""
+
+#: admin/views/help.php:273
+msgid "Yes! The plugin supports:"
+msgstr ""
+
+#: admin/views/help.php:295
+msgid "Yes. The plugin includes:"
+msgstr ""
+
+#: admin/views/help.php:283
+msgid "You can configure cron frequencies in Settings:"
+msgstr ""
+
+#: admin/views/help.php:32
+msgid "Your Odoo connection is not configured yet."
+msgstr ""
+
+#: admin/views/help.php:41
+msgid "Your Odoo database name"
+msgstr ""
+
+#: admin/views/help.php:40
+msgid "Your Odoo instance URL (e.g., https://your-company.odoo.com)"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:251
+msgid "Your Odoo password or API key"
+msgstr ""
+
+#: admin/views/help.php:43
+msgid "Your Odoo password or API key (recommended)"
+msgstr ""
+
+#: admin/views/help.php:42
+msgid "Your Odoo user email"
+msgstr ""
+
+#: admin/class-woo-odoo-setup-wizard.php:339
+msgid "Your OdooSync for WooCommerce is now configured and ready to use."
+msgstr ""
+
+#: includes/class-woo-odoo-privacy.php:269
+msgid "Your data is sent to your configured Odoo instance. We also connect to third-party services if you enable integrations (ShipStation, Mailchimp, etc.)."
+msgstr ""
+
+#: woo-odoo-connector.php:346
+msgid "Your passwords need to be encrypted for security. "
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:843
+msgid "Zone-based (customer shipping zone)"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:846
+msgid "Zone-based uses the customer’s shipping zone (server-side). Primary uses the highest-priority warehouse with stock."
+msgstr ""
+
+#: includes/class-woo-odoo-alert-manager.php:61
+msgid "[%s] Woo-Odoo Sync: %d failure(s) require attention"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:822
+msgid "hours"
+msgstr ""
+
+#: admin/views/settings.php:86
+msgid "to"
+msgstr ""
+
+#: admin/views/settings.php:38
+msgid "woo-odoo-sync group"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:938
+#: admin/class-woo-odoo-admin.php:952
+#: admin/class-woo-odoo-admin.php:978
+msgid "— Default —"
+msgstr ""
+
+#: admin/class-woo-odoo-admin.php:965
+#: admin/views/warehouse-settings.php:71
+msgid "— None —"
+msgstr ""
